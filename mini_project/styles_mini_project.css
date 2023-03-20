@@ -1,0 +1,42 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    margin: 10px auto 0 auto;
+    padding: 5px;
+    width: 70%;
+    height: auto;
+    border: silver solid 2px;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 5px;
+    column-gap: 5px;
+    justify-content: space-around;
+}
+
+.userBlock {
+    padding: 5px;
+    width: 40%;
+    color: blue;
+    border: silver solid 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: lightsalmon;
+}
+
+.btn {
+    width: 200px;
+    height: 30px;
+    display: block;
+    margin: 5px;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+}
+

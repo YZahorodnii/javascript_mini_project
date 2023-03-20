@@ -1,0 +1,36 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    display: flex;
+    width: 100%;
+}
+
+.post {
+    width: 90%;
+    margin: 10px auto 0 auto;
+    padding: 10px;
+    font-family: Arial sans-serif;
+    background-color: lightyellow;
+    border: silver solid 2px;
+    min-width: 1000px;
+}
+
+.comments {
+    width: 90%;
+    margin: 10px auto 0 auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    min-width: 1000px;
+}
+
+.commentBox {
+    width: 23%;
+    margin: 5px;
+    padding: 6px;
+    background-color: #f1f109;
+}
